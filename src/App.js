@@ -9,13 +9,13 @@ function App() {
     <Router>
       <ul>
         <li>
-          <Link to="/">Sobre</Link>
+          <Link to="/" className='menu'>Sobre</Link>
         </li>
         <li>
-          <Link to="/Projetos">Projetos</Link>
+          <Link to="/Projetos" className='menu'>Projetos</Link>
         </li>
         <li>
-          <Link to="/Contatos">Contatos</Link>
+          <Link to="/Contatos" className='menu'>Contatos</Link>
         </li>
       </ul>
       <Routes>
